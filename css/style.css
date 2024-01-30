@@ -60,7 +60,7 @@ body {
     display:flex;
     list-style: none;
     text-transform: uppercase;
-    font-size: var(--FONTSM);
+    font-size: var(--FONTSM-X);
 }
 
 /*Below code is used to target the li element inside the ul element */
@@ -84,7 +84,7 @@ body {
 .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
-    gap: 20px;
+    gap: 70px;
 }
 
 /* Below code is used to foramt the img element inside the about section */
@@ -258,7 +258,7 @@ text-transform:capitalize;
 .footerbox {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 40px;
+    gap: 80px;
 }
 
 .footernav {
