@@ -153,13 +153,95 @@ body {
     margin: 40px 40px 80px 40px;
 }
 
+.box .innerbox {
+    width: 400px;
+    height: 600px;
+    margin: 0 20px 100px 20px;
+}
+
+.box .innerbox img {
+    width: 400px;
+    height: 600px;
+}
 /*  */
 .box .innerbox p {
 margin: 15px 10px 15px 10px;
+text-transform:capitalize;
 
 }
+/* -----------------------------------------END OF THE SERVICE SECTION ELEMENT------------------------- */
 
+/* BELOW CODE IS USED TO FORMAT THE SEARCH SECTION ELEMENT */
+.search {
+    background-image: url('../img/Rectangle\ 13.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 40px 0;
+}
 
+.boxsearch {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+   
+}
+
+.boxsearch .searchbox {
+    margin: 200px 80px 150px 80px;
+    width: 538px;
+    height: 500px;
+    background-color: var(--GB-COLOR);
+}
+
+.boxsearch .searchbox:last-child {
+    width: 438px;
+    height: 370px;
+    margin: 10x 5px 10px 5px;
+}
+
+.boxsearch .searchbox h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--FONTBG-X);
+    font-weight: bolder;
+    margin: 0 20px 0 0;
+}
+
+.boxsearch .searchbox p {
+    text-indent: 50px;
+    text-wrap: wrap;
+    font-size: var(--FONTSM);
+    padding: 0 20px 40px 0;
+    line-height: 2;
+}
+
+.boxsearch .searchbox button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    font-size: var(--FONTSM);
+    font-weight: bolder;
+    margin: 0 10rem 0 10rem;
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--GB-COLOR);
+    background-color: var(--GB-COLOR4);
+}
+
+.boxsearch .searchbox img {
+    width: 538px;
+    height: 500px;
+    margin: 0 5px 2rem 25%;
+}
+
+.clients h2, p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 /* BELOW CODE IS THE CONTACT SECTION ELEMENT */
 /* Below code is used to  */
 .contact {
